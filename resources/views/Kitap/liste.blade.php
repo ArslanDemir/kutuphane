@@ -5,12 +5,11 @@
    
         <div class="row-fluid">
             <div class="col" align="center">
-                
-            <a href="kitap/ekle" class="btn btn-success">Kitap Ekle</a>
+                <a href="kitap/ekle" class="btn btn-success">Kitap Ekle</a>
             </div>
         </div>
         @isset($kitaplar)
-        <div class="row row-cols-2">
+        <div class="row row-cols-2" style="margin-top: 20px">
         @foreach($kitaplar as $kitap)
             <li class="list-group-item">
                 <div class="float-left">

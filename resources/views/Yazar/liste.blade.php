@@ -8,7 +8,7 @@
             <a href="yazar/ekle" class="btn btn-success">Yazar Ekle</a>
             </div>
         </div>
-    <div class="col">
+    <div class="col" style="margin-top: 20px">
         @isset($yazarlar)
         <ul class="list-group">
             

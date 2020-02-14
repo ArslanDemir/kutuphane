@@ -8,7 +8,7 @@
             <a href="kisi/ekle" class="btn btn-success">Kişi Ekle</a>
             </div>
         </div>
-    <div class="col">
+    <div class="col" style="margin-top: 20px">
         @isset($kisiler)
         <ul class="list-group">
         @foreach($kisiler as $kisi)
