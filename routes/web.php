@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'Kitap\KitapController@show');
+Route::get('/', 'Controller@showMain');
 
 Route::get('kitaplar','Kitap\KitapController@show');
 

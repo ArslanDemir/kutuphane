@@ -65,29 +65,15 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
                 <div class="title m-b-md">
                     Kütüphanem
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('kitaplar/liste') }}">Kitaplarım</a>
-                    <a href="{{ route('yazarlar/liste') }}">Yazarlar</a>
-                    <a href="{{ route('islemler/liste') }}">İslemler</a>
+                    <a href="{{ URL::to('kitaplar') }}">Kitaplarım</a>
+                    <a href="{{ URL::to('yazarlar') }}">Yazarlar</a>
+                    <a href="{{ URL::to('islemler') }}">İslemler</a>
                 </div>
             </div>
         </div>
