@@ -2,7 +2,15 @@
 
 @section('baslik','Kitap Ekle')
 @section('icerik')
-
+<div class="col-5">
+    <div class="form-group">
+        <label>ISBN KODU</label>
+        <input class="form-control" type="text" name="isbn">
+    </div>
+    <div class="form-group">
+        <button class="form-control">ARA</button>
+    </div>
+</div>
 <hr>
 <div class="col-5">
     <form method="POST" action="{{URL::to('/kitap/ekle')}}" enctype="multipart/form-data">

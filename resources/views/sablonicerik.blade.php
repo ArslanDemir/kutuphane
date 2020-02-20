@@ -36,9 +36,7 @@
         </style>
 <body>
 	<div class="container-fluid">
-		<div class="row">
-			
-        
+		<div class="row-fluid">
 	        <div class="col" align="center">
 	            <div style="text-align: center">
 	                <div style="font-size: 33px,margin-bottom: 30px;">
@@ -53,18 +51,7 @@
 	                </div>
 	            </div>
 	        </div>
-
 		</div>
-		<!--
-		<div class="row">
-			<div class="col" align="center">	
-				<a href="{{URL::to('/kitaplar')}}">Kitaplarım</a>
-				<a href="{{URL::to('/yazarlar')}}">Yazarlar</a>
-				<a href="{{URL::to('/kisiler')}}">Kişiler</a>
-				<a href="{{URL::to('/islemler')}}">İslemler</a>
-			</div>
-		</div>
-	-->
 	<div class="row-fluid" style="margin-top: 30px">
 		@yield('icerik')
 	</div>
