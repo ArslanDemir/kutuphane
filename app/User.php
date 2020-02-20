@@ -8,7 +8,7 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {	
     use Notifiable;
-    /** lütfen kodlara sahip çıkalım
+    /** lütfen kodlara sahip çıkalım okey
      * The attributes that are mass assignable.
      *
      * @var array
